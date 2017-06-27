@@ -1,0 +1,21 @@
+{
+  "name": "angband-webterm",
+  "version": "0.0.1",
+  "description": "An attempt to make a native web frontend for Angband",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "test": "mocha"
+  },
+  "keywords": [
+    "angband",
+    "pointless",
+    "fun"
+  ],
+  "author": "A Sidwell <andi@takkaria.org>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "webpack": "^3.0.0"
+  }
+}
