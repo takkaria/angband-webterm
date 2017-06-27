@@ -19,12 +19,21 @@ body {
 .term {
 	background-color: black;
 	color: white;
+	border: 4px solid black;
 	font-family: monospace;
-	width: 60em;
+	font-size: 14px;
+	width: calc(10px * 80);
+}
+
+.cell {
+	display: inline-block;
+	width: 10px;
 }
 </style>
 
-<div id="angband"></div>
+<div id="angband">
+	<div id="term-0"></div>
+</div>
 <div id="debug"></div>
 
 <script src="../dist/app.js"></script>
