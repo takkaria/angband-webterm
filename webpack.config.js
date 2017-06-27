@@ -4,6 +4,6 @@ module.exports = {
   entry: './lib/main.js',
   output: {
     filename: 'app.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'public')
   }
 }

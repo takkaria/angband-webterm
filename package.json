@@ -4,7 +4,7 @@
   "description": "An attempt to make a native web frontend for Angband",
   "main": "index.js",
   "scripts": {
-    "start": "http-server .",
+    "start": "node server.js",
     "test": "mocha"
   },
   "keywords": [
@@ -15,7 +15,8 @@
   "author": "A Sidwell <andi@takkaria.org>",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^0.10.0",
+    "express": "^4.15.3",
+    "express-ws": "^3.0.0",
     "snabbdom": "^0.6.9",
     "webpack": "^3.0.0"
   }
